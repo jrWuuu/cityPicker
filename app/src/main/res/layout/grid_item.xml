@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#b9b8b8"
+              android:orientation="vertical">
+
+    <TextView
+        android:text="默认"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:id="@+id/gridtv_headname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <wuchen.com.citypicker.view.DragableGridlayout
+        android:id="@+id/item_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
